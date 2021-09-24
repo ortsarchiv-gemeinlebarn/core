@@ -17,7 +17,7 @@ namespace oag.Core.Test
                 .ToList();
 
             // Act
-            bool unique = values.Distinct().Count() == values.Count();
+            bool unique = values.Distinct().Count() == values.Count;
 
             // Assert
             Assert.True(unique);
