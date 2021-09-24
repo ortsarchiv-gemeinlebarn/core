@@ -20,6 +20,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oag.Core", "src\oag.Core\oa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oag.Core.Test", "test\oag.Core.Test\oag.Core.Test.csproj", "{E9CD3A00-7899-46EC-A114-2F726E22B818}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pipelines", "Pipelines", "{C423A4B0-A047-46D0-847F-EED0059CE6A8}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\sonar.yml = .github\workflows\sonar.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +56,7 @@ Global
 		{3F4A3B1E-E702-4C27-9D81-4B41BA18B0FD} = {7C175456-C43C-453E-B5A3-E96B6DDFB74E}
 		{8342700D-6352-4BD2-AF82-BF7615EC2B01} = {7C175456-C43C-453E-B5A3-E96B6DDFB74E}
 		{E9CD3A00-7899-46EC-A114-2F726E22B818} = {FCC76519-B0C4-4999-A275-D8FEB5B6CF49}
+		{C423A4B0-A047-46D0-847F-EED0059CE6A8} = {77637173-2110-4DF4-8D91-A25F245C0C6E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E602ADB-42C2-4FA8-B95E-E0CD72325598}
