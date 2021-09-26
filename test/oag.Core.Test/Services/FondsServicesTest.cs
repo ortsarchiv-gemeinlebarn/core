@@ -1,24 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
-using Moq;
 using oag.Core.Data.Models;
-using Microsoft.EntityFrameworkCore;
-using oag.Core.Interfaces;
-using oag.Core.Data.Interfaces;
 using oag.Core.Services;
-using oag.Core.Data.Contexts;
-using oag.Core.Data.Repositories;
 using oag.Core.Fakes.Repositories;
 
 namespace oag.Core.Test.Services
 {
     public class FondsServicesTest
     {
-        private IEnumerable<Fonds> data;
         private FondsService service;
 
         public FondsServicesTest()
