@@ -5,7 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\oag.Core.Data\oag.Core.Data.csproj" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\oag.Core\oag.Core.csproj" />
   </ItemGroup>
 
 </Project>
