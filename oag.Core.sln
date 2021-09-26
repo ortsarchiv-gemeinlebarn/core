@@ -12,18 +12,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oag.Core.Web", "src\oag.Core.Web\oag.Core.Web.csproj", "{9C7E7B3A-E12E-41AB-A3A3-52B120AA5298}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oag.Core.Web", "src\oag.Core.Web\oag.Core.Web.csproj", "{9C7E7B3A-E12E-41AB-A3A3-52B120AA5298}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oag.Core.Data", "src\oag.Core.Data\oag.Core.Data.csproj", "{3F4A3B1E-E702-4C27-9D81-4B41BA18B0FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oag.Core.Data", "src\oag.Core.Data\oag.Core.Data.csproj", "{3F4A3B1E-E702-4C27-9D81-4B41BA18B0FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oag.Core", "src\oag.Core\oag.Core.csproj", "{8342700D-6352-4BD2-AF82-BF7615EC2B01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oag.Core", "src\oag.Core\oag.Core.csproj", "{8342700D-6352-4BD2-AF82-BF7615EC2B01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oag.Core.Test", "test\oag.Core.Test\oag.Core.Test.csproj", "{E9CD3A00-7899-46EC-A114-2F726E22B818}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oag.Core.Test", "test\oag.Core.Test\oag.Core.Test.csproj", "{E9CD3A00-7899-46EC-A114-2F726E22B818}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pipelines", "Pipelines", "{C423A4B0-A047-46D0-847F-EED0059CE6A8}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\sonar.yml = .github\workflows\sonar.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oag.Core.Fakes", "test\oag.Core.Fakes\oag.Core.Fakes.csproj", "{22A54C04-29DC-4A91-BFDD-B1A1A5403C6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{E9CD3A00-7899-46EC-A114-2F726E22B818}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9CD3A00-7899-46EC-A114-2F726E22B818}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9CD3A00-7899-46EC-A114-2F726E22B818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A54C04-29DC-4A91-BFDD-B1A1A5403C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A54C04-29DC-4A91-BFDD-B1A1A5403C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A54C04-29DC-4A91-BFDD-B1A1A5403C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A54C04-29DC-4A91-BFDD-B1A1A5403C6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{8342700D-6352-4BD2-AF82-BF7615EC2B01} = {7C175456-C43C-453E-B5A3-E96B6DDFB74E}
 		{E9CD3A00-7899-46EC-A114-2F726E22B818} = {FCC76519-B0C4-4999-A275-D8FEB5B6CF49}
 		{C423A4B0-A047-46D0-847F-EED0059CE6A8} = {77637173-2110-4DF4-8D91-A25F245C0C6E}
+		{22A54C04-29DC-4A91-BFDD-B1A1A5403C6F} = {FCC76519-B0C4-4999-A275-D8FEB5B6CF49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E602ADB-42C2-4FA8-B95E-E0CD72325598}
